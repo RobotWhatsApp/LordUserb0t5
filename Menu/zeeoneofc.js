@@ -1,14 +1,7 @@
 exports.allmenu = (wib, wit, wita, namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
-return`☞︎︎︎ Hello ${pushname}🤗 Saya ${namabot}😎
+return`Hello ${pushname}🤗 Saya ${namabot}😎
 
-┏━━━━━━━━━━━━⬣ 
-┃⬡ saya akan mempermudah hidup 
-┃⬡ anda dengan membuat logo coffe
-┃⬡ dan lain lain didalam WhatsApp
-┃⬡ juga bisa untuk mengelola group
-┃⬡ anda ikuti petunjuk di bawah ini 
-┃⬡ untuk memerintah
-┗━━━━━━━━━━━━⬣
+saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam WhatsApp juga bisa untuk mengelola group anda ikuti petunjuk di bawah ini untuk memerintah
 
 ┏━━⬣ *𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄*
 ┃𝐖𝐢𝐛 : ${wib} 𝐖𝐈𝐁
