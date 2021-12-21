@@ -1,4 +1,4 @@
-exports.allmenu = (wib, wit, wita, namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
+exports.allmenu = (namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
 return`☞︎︎︎ Hello ${pushname}🤗 Saya ${namabot}😎
 
 ┏━━━━━━━━━━━━⬣ 
