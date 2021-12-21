@@ -1,17 +1,31 @@
-exports.allmenu = (namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
-return`Hello ${pushname}🤗 Saya ${namabot}
+exports.allmenu = (wib, wit, wita, namabot, pushname, sender, isOwner, isPrem, cekvipp, getLimit, limitawal, limit, balance, getBalance, simbolnya, petik, prefix) => {
+return`☞︎︎︎ Hello ${pushname}🤗 Saya ${namabot}😎
 
-saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam WhatsApp juga bisa untuk mengelola group anda ikuti petunjuk di bawah ini untuk memerintah
+┏━━━━━━━━━━━━⬣ 
+┃⬡ saya akan mempermudah hidup 
+┃⬡ anda dengan membuat logo coffe
+┃⬡ dan lain lain didalam WhatsApp
+┃⬡ juga bisa untuk mengelola group
+┃⬡ anda ikuti petunjuk di bawah ini 
+┃⬡ untuk memerintah
+┗━━━━━━━━━━━━⬣
 
-📛 Nama : ${pushname} 
-🆔 Nomor : @${sender.split("@")[0]} 
-📊 Status : ${isOwner?`Owner ⚔️`:isPrem?`Premium 🏅`:`Free User`} 
-🎁 Expired Prem : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
-💳 Limit : ${isOwner?`Unlimited`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
-💹 Balance : ${getBalance(sender, balance)}
+┏━━⬣ *𝐈𝐍𝐃𝐎𝐍𝐄𝐒𝐈𝐀 𝐓𝐈𝐌𝐄*
+┃𝐖𝐢𝐛 : ${wib} 𝐖𝐈𝐁
+┃𝐖𝐢𝐭 : ${wit} 𝐖𝐈𝐓
+┃𝐖𝐢𝐭𝐚 : ${wita} 𝐖𝐈𝐓𝐀
+┗━━━━━━━━━━━━⬣
+┏━━⬣ *𝐔𝐒𝐄𝐑 𝐈𝐍𝐅𝐎*
+┃𝐍𝐚𝐦𝐚 : ${pushname} 
+┃𝐍𝐨𝐦𝐨𝐫 : @${sender.split("@")[0]} 
+┃𝐒𝐭𝐚𝐭𝐮𝐬 : ${isOwner?`Owner ⚔️`:isPrem?`Premium 🏅`:`Free User`} 
+┃𝐄𝐱𝐩𝐢𝐫𝐞𝐝 𝐏𝐫𝐞𝐦 : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
+┃𝐋𝐢𝐦𝐢𝐭 : ${isOwner?`Unlimited Owner`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
+┃𝐁𝐚𝐥𝐚𝐧𝐜𝐞 : ${getBalance(sender, balance)}
+┗━━━━━━━━━━━━⬣
 
 
-┏━━⬣ *Owner-Menu*
+┏━━⬣ *𝐎𝐖𝐍𝐄𝐑-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}bc [text]
 ┃${simbolnya} ${prefix}bcimage [reply foto]
 ┃${simbolnya} ${prefix}ban @tag
@@ -34,7 +48,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya}  $ [cmd termux]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Download-Menu*
+┏━━⬣  *𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}play [query]
 ┃${simbolnya} ${prefix}ytmp3 [url]
 ┃${simbolnya} ${prefix}ytmp4 [url]
@@ -51,7 +65,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}mediafire [url]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Convert-Menu*
+┏━━⬣  *𝐂𝐎𝐍𝐕𝐄𝐑𝐓-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}sticker [tag foto/vid]
 ┃${simbolnya} ${prefix}swm [text|text2]
 ┃${simbolnya} ${prefix}take [text|text2]
@@ -74,19 +88,19 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}vibrato [reply music]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Editor-Menu*
+┏━━⬣  *𝐄𝐃𝐈𝐓𝐎𝐑-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}memegen teks atas | teks bawah
 ┃${simbolnya} ${prefix}stickmeme teks
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Search-Menu*
+┏━━⬣  *𝐒𝐄𝐀𝐑𝐂𝐇-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}pinterest [query]
 ┃${simbolnya} ${prefix}wikipedia [query]
 ┃${simbolnya} ${prefix}playstore [query]
 ┃${simbolnya} ${prefix}yts [query]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Storage-Menu*
+┏━━⬣  *𝐒𝐓𝐎𝐑𝐀𝐆𝐄-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}addrespon [pesan|respon]
 ┃${simbolnya} ${prefix}delrespon [pesan]
 ┃${simbolnya} ${prefix}listrespon
@@ -107,7 +121,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}delstik [text]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Fun-Menu*
+┏━━⬣  *𝐅𝐔𝐍-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}slot
 ┃${simbolnya} ${prefix}truth
 ┃${simbolnya} ${prefix}dare
@@ -117,7 +131,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃	devote
 ┗━━━━━━━━━━━━⬣
    
-┏━━⬣  *Group-Menu*
+┏━━⬣  *𝐆𝐑𝐔𝐏-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}sider [reply pesan bot]
 ┃${simbolnya} ${prefix}afk [reason]
 ┃${simbolnya} ${prefix}hidetag [text]
@@ -141,7 +155,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}antitroli [on/off]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Anime-Menu* 
+┏━━⬣  *𝐀𝐍𝐈𝐌𝐄-𝐌𝐄𝐍𝐔* 
 ┃${simbolnya} ${prefix}loli
 ┃${simbolnya} ${prefix}neko
 ┃${simbolnya} ${prefix}waifu
@@ -175,7 +189,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}cringe
 ┗━━━━━━━━━━━━⬣
    
-┏━━⬣  *Limit-Menu*
+┏━━⬣  *𝐋𝐈𝐌𝐈𝐓-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}topbalance
 ┃${simbolnya} ${prefix}toplimit
 ┃${simbolnya} ${prefix}limit
@@ -186,7 +200,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}buyprem [need 1k limit]
 ┗━━━━━━━━━━━━⬣
    
-┏━━⬣  *Maker-Menu*
+┏━━⬣  *𝐌𝐀𝐑𝐊𝐄𝐑-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}nuliskanan [text]
 ┃${simbolnya} ${prefix}nuliskiri [text]
 ┃${simbolnya} ${prefix}foliokanan [text]
@@ -204,7 +218,7 @@ saya akan mempermudah hidup anda dengan membuat logo coffe dan lain lain didalam
 ┃${simbolnya} ${prefix}grass [text]
 ┗━━━━━━━━━━━━⬣
 
-┏━━⬣  *Others-Menu*
+┏━━⬣  *𝐎𝐓𝐇𝐄𝐑𝐒-𝐌𝐄𝐍𝐔*
 ┃${simbolnya} ${prefix}pantun
 ┃${simbolnya} ${prefix}faktaunik
 ┃${simbolnya} ${prefix}donasi
